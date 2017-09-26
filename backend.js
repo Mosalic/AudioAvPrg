@@ -63,3 +63,8 @@ var allFrequencies = [
 			output.innerHTML = "Take a value between 0 and 127";
 		}
 	});
+	
+	var audiocontext = new AudioContext();
+	var oscillator = audiocontext.createOscillator();
+	oscillator.start(context.currentTime);
+	oscillator.stop(context.currentTime + 1);
