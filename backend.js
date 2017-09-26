@@ -62,4 +62,4 @@ var allFrequencies = [
 		}else{
 			
 		}*/
-	};
+	});
