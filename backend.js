@@ -1,5 +1,3 @@
-var a = 1;
-console.log(a);
 
 var allFrequencies = [
     8.1757989156,       8.6619572180,       9.1770239974,
@@ -55,9 +53,9 @@ var allFrequencies = [
 	
 	myButton.addEventListener("click", convertValue(e){
 		var input = document.getElementById("input_value").value;
-		
-		if(input >=0 && input <= 127){
+		document.getElementById("para_value").innerHTML = value;
+		/*if(input >=0 && input <= 127){
 			var frequenz = allFrequencies[input];
 			document.getElementById("para_value").innerHTML(frequenz);
-		}
+		}*/
 	};
