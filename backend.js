@@ -55,11 +55,11 @@ var allFrequencies = [
 	
 	myButton.addEventListener("mousedown", function(e){
 		var value = input.value;
-		output.innerHTML = value;
-		/*if(value >=0 && value <= 127){
+		
+		if(value >=0 && value <= 127){
 			var frequenz = allFrequencies[value];
-			
+			output.innerHTML = frequenz;
 		}else{
-			
-		}*/
+			output.innerHTML = "Take a value between 0 and 127";
+		}
 	});
