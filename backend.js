@@ -50,10 +50,12 @@ var allFrequencies = [
     28160,              29834.480737157748, 31608.53128039195];
 	
 	var myButton = document.getElementById("btn_value");
+	var input = document.getElementById("input_value")
+	var output = document.getElementById("div_value");
 	
-	myButton.addEventListener("click", convertValue(e){
-		var input = document.getElementById("input_value").value;
-		document.getElementById("para_value").innerHTML = value;
+	myButton.addEventListener("mousedown", function(e){
+		input.value;
+		output.innerHTML = value;
 		/*if(input >=0 && input <= 127){
 			var frequenz = allFrequencies[input];
 			document.getElementById("para_value").innerHTML(frequenz);
