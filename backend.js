@@ -58,6 +58,8 @@ var allFrequencies = [
 		output.innerHTML = value;
 		/*if(value >=0 && value <= 127){
 			var frequenz = allFrequencies[value];
-			document.getElementById("para_value").innerHTML(frequenz);
+			
+		}else{
+			
 		}*/
 	};
